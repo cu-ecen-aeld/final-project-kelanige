@@ -12,7 +12,7 @@ SRC_URI = "git://git@github.com/kelanige/rpi-gpio-kernel-module.git;protocol=ssh
 PV = "1.0+git${SRCPV}"
 # TODO: investigate why floating revisions do not work.
 # SRCREV = "${AUTOREV}"
-SRCREV = "b1653583d9ddef028d2f753af861f52252efaacc"
+SRCREV = "d0113c4b06dfe37884e984e88f9761d99a1ba7be"
 
 S = "${WORKDIR}/git"
 
